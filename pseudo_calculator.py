@@ -1,16 +1,12 @@
 """
 This pseudo calculator should support the following operations:
-
   * Positive
   * Negative
-
 Your users should be able to send appropriate requests and get back
 proper responses. For example, if I open a browser to your wsgi
 application at `http://localhost:8080/positive/5' then the response
 body in my browser should be `true`.
-
 Consider the following URL/Response body pairs as tests:
-
 ```
   http://localhost:8080/positive/5  => 'true'
   http://localhost:8080/positive/0  => 'false'
@@ -18,7 +14,6 @@ Consider the following URL/Response body pairs as tests:
   http://localhost:8080/negative/0  => 'false'
   http://localhost:8080/negative/-2 => 'true'
 ```
-
 """
 
 def resolve_path(path):
